@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.daniel_fbo</groupId>
-	<artifactId>rps</artifactId>
+	<artifactId>papytron</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>rps</name>
+	<name>papytron</name>
 	<description/>
 	<url/>
 	<licenses>

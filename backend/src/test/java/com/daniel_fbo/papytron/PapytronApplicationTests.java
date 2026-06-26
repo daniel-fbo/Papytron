@@ -1,10 +1,10 @@
-package com.daniel_fbo.rps;
+package com.daniel_fbo.papytron;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RpsApplicationTests {
+class PapytronApplicationTests {
 
 	@Test
 	void contextLoads() {
