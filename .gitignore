@@ -10,3 +10,6 @@ backend/target/
 # Env / segredos (importante!)
 *.env
 application-local.properties
+# Docs
+.venv/
+site/

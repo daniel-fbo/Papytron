@@ -1,0 +1,39 @@
+site_name: Papytron
+site_url: https://daniel-fbo.github.io/Papytron/
+repo_url: https://github.com/daniel-fbo/Papytron
+repo_name: Papytron
+plugins:
+  - search
+theme:
+  name: material
+  language: pt-BR
+  features: [ navigation.instant, navigation.tracking, navigation.tabs,
+              navigation.sections, navigation.top, navigation.footer,
+              search.suggest, search.highlight, content.code.copy ]
+  palette:
+    - scheme: default
+      toggle: { icon: material/weather-night, name: Modo escuro }
+    - scheme: slate
+      toggle: { icon: material/weather-sunny, name: Modo claro }
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences:
+      custom_fences:
+        - { name: mermaid, class: mermaid, format: !!python/name:pymdownx.superfences.fence_code_format }
+  - pymdownx.tabbed: { alternate_style: true }
+nav:
+  - Home: index.md
+  - Arquitetura (MVCS-R): arquitetura/index.md
+  - Backend (Spring): backend/index.md
+  - Frontend (Angular): frontend/index.md
+  - Banco (PostgreSQL): banco/index.md
+  - Padrões do projeto:
+      - Política de Git: padroes/git.md
+      - Issues e PRs: padroes/issues-prs.md
+      - Definição de Pronto/Feito: padroes/dod-dor.md
+  - Testes (JUnit/Jasmine): testes/index.md
+  - Sprints: sprints/index.md
+  - Decisões (ADRs): adr/index.md
+
